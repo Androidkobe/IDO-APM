@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ASMTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ASMTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ASMTest.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ASMTest.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/asmplugin/ASMTest.asmplugin.iml" filepath="$PROJECT_DIR$/.idea/modules/asmplugin/ASMTest.asmplugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IDO-APM.iml" filepath="$PROJECT_DIR$/.idea/modules/IDO-APM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IDO-APM.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IDO-APM.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/asmplugin/IDO-APM.asmplugin.iml" filepath="$PROJECT_DIR$/.idea/modules/asmplugin/IDO-APM.asmplugin.iml" />
     </modules>
   </component>
 </project>

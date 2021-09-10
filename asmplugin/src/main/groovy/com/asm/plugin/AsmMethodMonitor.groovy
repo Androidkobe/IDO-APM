@@ -1,0 +1,1 @@
+package com.asm.plugin;public class AsmMethodMonit {}
