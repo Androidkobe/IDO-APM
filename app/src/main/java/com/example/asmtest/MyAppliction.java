@@ -1,0 +1,1 @@
+package com.example.asmtest;import android.app.Application;import android.content.Context;public class MyAppliction extends Application {    @Override    protected void attachBaseContext(Context base) {        super.attachBaseContext(base);    }}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ASMTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ASMTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ASMTest.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ASMTest.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/asmplugin/ASMTest.asmplugin.iml" filepath="$PROJECT_DIR$/.idea/modules/asmplugin/ASMTest.asmplugin.iml" />
+    </modules>
+  </component>
+</project>
