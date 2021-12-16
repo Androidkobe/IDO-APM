@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/4.2.2/b5b7f34278bb89e8256741e4af463dc9b2fbc409/builder-4.2.2.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/4.2.2/aab689bb15ca6166ff23002b7a48ee6a30a7b4a9/builder-4.2.2-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/4.2.2/489cb069610b5332235885c1a887aea46ea67aaa/builder-4.2.2-sources.jar!/" />
     </SOURCES>
