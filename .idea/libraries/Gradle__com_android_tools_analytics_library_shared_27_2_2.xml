@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/shared/27.2.2/368d2c9d578327e508b69a05d0ebbc1ac38c7151/shared-27.2.2.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/shared/27.2.2/e2df721eb923744aa5c219da81e77c334213f4fd/shared-27.2.2-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/shared/27.2.2/38ef6d968065ba8d775a7d50195be93936aa56e2/shared-27.2.2-sources.jar!/" />
     </SOURCES>

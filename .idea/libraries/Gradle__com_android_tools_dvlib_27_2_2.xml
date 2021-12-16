@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/27.2.2/aa857995bfdb6dcbddb5362ebee31dbf478dccc6/dvlib-27.2.2.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/27.2.2/26810d5737f203054b3252bb7c4e0049eea97a18/dvlib-27.2.2-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/27.2.2/63a58f65646e1eaded1e4a3a15c39fb62edc48d8/dvlib-27.2.2-sources.jar!/" />
     </SOURCES>

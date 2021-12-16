@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/4.2.2/d5f3c03d885287eb0765902bb2f9f36cce25eb6e/gradle-api-4.2.2.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/4.2.2/4236e81a53f1f8a8e9b1f2979bce1825250bd19f/gradle-api-4.2.2-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/4.2.2/7738830f8f2deb4b1466638f894e460f3725a19/gradle-api-4.2.2-sources.jar!/" />
     </SOURCES>

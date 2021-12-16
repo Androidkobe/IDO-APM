@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android/zipflinger/4.2.2/1c48aa08e274d2d9aee76f79d09b9ab8209e6627/zipflinger-4.2.2.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android/zipflinger/4.2.2/db8c1aa270446f3a13f9b34574674f07a30c4f1b/zipflinger-4.2.2-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android/zipflinger/4.2.2/9bc0990e1494cbcc08c10cdef4f953afee265831/zipflinger-4.2.2-sources.jar!/" />
     </SOURCES>

@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/tracker/27.2.2/d75809cf650ab19f810f9f7b09559490abbeccca/tracker-27.2.2.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/tracker/27.2.2/f337b6a17c7e4ccc6c86a782d40c1a33572acf03/tracker-27.2.2-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/tracker/27.2.2/b76ea032c7e34dd563ab64c20bc9358ea0d27de2/tracker-27.2.2-sources.jar!/" />
     </SOURCES>

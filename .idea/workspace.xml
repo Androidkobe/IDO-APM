@@ -18,51 +18,177 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97ff8fce-0fa7-4832-8d3f-9b40dc9636e4" name="Default Changelist" comment="asm add mothed momitor">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asmplugin/src/main/groovy/com/asm/plugin/AsmMothedMonit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asmplugin/src/main/groovy/com/asm/plugin/AsmTransform.java" beforeDir="false" />
+    <list default="true" id="97ff8fce-0fa7-4832-8d3f-9b40dc9636e4" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master' into master">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjrt_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjtools_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/miadaspect/IDO-APM.miadaspect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/asmtest/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asmplugin/src/main/groovy/com/miadapm/plugin/MiAdApmPlugin.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asmplugin/src/main/groovy/com/miadapm/plugin/asm/AsmMethodMonitor.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asmplugin/src/main/groovy/com/miadapm/plugin/asm/AsmTransform.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asmplugin/src/main/groovy/com/miadapm/plugin/aspect/AspectAdMethodTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miadaspect/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miadaspect/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miadaspect/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miadaspect/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miadaspect/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miadaspect/src/main/java/com/xiaomi/miadaspect/AspectAdMethodTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_4_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_4_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_compiler_common_4_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_compiler_common_4_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_6_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_6_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_4_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_4_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_4_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_4_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_4_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_services_storage_1_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_services_storage_1_4_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_databinding_baseLibrary_4_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_databinding_baseLibrary_4_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_signflinger_4_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_signflinger_4_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_analytics_library_crash_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_analytics_library_crash_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_analytics_library_protos_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_analytics_library_protos_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_analytics_library_shared_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_analytics_library_shared_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_analytics_library_tracker_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_analytics_library_tracker_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_annotations_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_annotations_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_aapt2_proto_4_2_2_7147631.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_aapt2_proto_4_2_2_7147631.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_aaptcompiler_4_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_aaptcompiler_4_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_apksig_4_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_apksig_4_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_apkzlib_4_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_apkzlib_4_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_builder_4_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_builder_4_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_builder_model_4_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_builder_model_4_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_builder_test_api_4_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_builder_test_api_4_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_gradle_4_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_gradle_4_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_gradle_api_4_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_gradle_api_4_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_manifest_merger_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_build_manifest_merger_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_common_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_common_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_ddms_ddmlib_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_ddms_ddmlib_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_dvlib_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_dvlib_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_layoutlib_layoutlib_api_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_layoutlib_layoutlib_api_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_lint_lint_gradle_api_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_lint_lint_gradle_api_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_lint_lint_model_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_lint_lint_model_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_repository_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_repository_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_sdk_common_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_sdk_common_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_sdklib_27_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_tools_sdklib_27_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_zipflinger_4_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_zipflinger_4_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_4_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_crypto_tink_tink_1_3_0_rc2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_crypto_tink_tink_1_3_0_rc2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_28_1_jre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_28_1_jre.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_jimfs_jimfs_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_jimfs_jimfs_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_3_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_3_10_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_util_3_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_util_3_10_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_juniversalchardet_juniversalchardet_1_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_juniversalchardet_juniversalchardet_1_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javapoet_1_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javapoet_1_10_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_activation_javax_activation_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_activation_javax_activation_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_istack_istack_commons_runtime_3_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__it_unimi_dsi_fastutil_8_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__it_unimi_dsi_fastutil_8_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_jna_5_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_jna_5_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_jna_platform_5_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_jna_platform_5_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_jopt_simple_jopt_simple_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_jopt_simple_jopt_simple_4_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_proguard_proguard_base_6_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_proguard_proguard_base_6_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_proguard_proguard_gradle_6_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_proguard_proguard_gradle_6_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_antlr_antlr4_4_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_antlr_antlr4_4_5_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_compress_1_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_compress_1_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_56.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_56.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_2_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_2_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_txw2_2_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jdom_jdom2_2_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jdom_jdom2_2_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_intellij_deps_trove4j_1_0_20181211.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_intellij_deps_trove4j_1_0_20181211.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_4_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_4_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20180813.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20180813.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jvnet_staxex_stax_ex_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_util_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_util_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__xerces_xercesImpl_2_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xerces_xercesImpl_2_12_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/IDO-APM.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/IDO-APM.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/asmplugin/IDO-APM.asmplugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/asmplugin/IDO-APM.asmplugin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/asmtest/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/asmtest/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/asmtest/MyAppliction.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/asmtest/MyAppliction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asmplugin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/asmplugin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asmplugin/src/main/groovy/com/asm/plugin/AsmMethodMonitor.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asmplugin/src/main/groovy/com/asm/plugin/AsmPlugin.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asmplugin/src/main/groovy/com/asm/plugin/AsmTransform.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asmplugin/src/main/resources/META-INF/gradle-plugins/com.asm.plugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/asmplugin/src/main/resources/META-INF/gradle-plugins/com.miadapm.plugin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repos/com/asm/gradle/plugin/asmgradleplugin/1.0.0/asmgradleplugin-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repos/com/asm/gradle/plugin/asmgradleplugin/1.0.0/asmgradleplugin-1.0.0.jar.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repos/com/asm/gradle/plugin/asmgradleplugin/1.0.0/asmgradleplugin-1.0.0.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repos/com/asm/gradle/plugin/asmgradleplugin/1.0.0/asmgradleplugin-1.0.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repos/com/asm/gradle/plugin/asmgradleplugin/1.0.0/asmgradleplugin-1.0.0.pom.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repos/com/asm/gradle/plugin/asmgradleplugin/1.0.0/asmgradleplugin-1.0.0.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repos/com/asm/gradle/plugin/asmgradleplugin/maven-metadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repos/com/asm/gradle/plugin/asmgradleplugin/maven-metadata.xml.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repos/com/asm/gradle/plugin/asmgradleplugin/maven-metadata.xml.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@b9dcec57]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\sundu\.android\avd\Pixel_2_XL_API_29_2.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -78,6 +204,12 @@
           <activation />
         </task>
         <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/miadaspect">
           <activation />
         </task>
         <projects_view>
@@ -121,6 +253,13 @@
                 <item name="IDO-APM" type="f1a62948:ProjectNode" />
                 <item name="asmplugin" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IDO-APM" type="f1a62948:ProjectNode" />
+                <item name="asmplugin" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="upload" type="c8890929:TasksNode$1" />
               </path>
             </expand>
@@ -142,9 +281,9 @@
   </component>
   <component name="ProjectId" id="1xrBn3DXRYMAmehBH58ENcTtdw7" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -152,8 +291,8 @@
     <property name="android-custom-viewC:/Users/sundu/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout/2.1.0/53df642f9d86b4432aad51ed61b5c5ea05c8afa2/constraintlayout-2.1.0-sources.jar!/androidx/constraintlayout/helper/widget/Carousel.java_SELECTED" value="Carousel" />
     <property name="android.sdk.path" value="D:/androidsdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/hugo-master" />
+    <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -169,13 +308,14 @@
       <recent name="E:\learnDemo\ASMTest\gradle\wrapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xiaomi.miadaspect" />
       <recent name="com.example.asmtest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\learnDemo\ASMTest\asmplugin\src\main\resources\META-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Gradle.IDO-APM:app [build]">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -241,18 +381,18 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ASMTest:app [assembleDebug]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IDO-APM:app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="assembleDebug" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -260,10 +400,10 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ASMTest:app [assembleRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IDO-APM:asmplugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/asmplugin" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -271,7 +411,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="assembleRelease" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -279,26 +419,7 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ASMTest:app [dexBuilderRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dexBuilderRelease" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ASMTest:asmplugin [uploadArchives]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IDO-APM:asmplugin [uploadArchives]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/asmplugin" />
@@ -317,10 +438,10 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IDO-APM:app [analyzeReleaseUnitTestDependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IDO-APM:miadaspect [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/miadaspect" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -328,7 +449,26 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="analyzeReleaseUnitTestDependencies" />
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="IDO-APM:miadaspect [uploadArchives]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/miadaspect" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="uploadArchives" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -385,11 +525,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ASMTest:app [assembleDebug]" />
-        <item itemvalue="Gradle.ASMTest:asmplugin [uploadArchives]" />
-        <item itemvalue="Gradle.IDO-APM:app [analyzeReleaseUnitTestDependencies]" />
-        <item itemvalue="Gradle.ASMTest:app [assembleRelease]" />
-        <item itemvalue="Gradle.ASMTest:app [dexBuilderRelease]" />
+        <item itemvalue="Gradle.IDO-APM:app [build]" />
+        <item itemvalue="Gradle.IDO-APM:asmplugin [uploadArchives]" />
+        <item itemvalue="Gradle.IDO-APM:asmplugin [build]" />
+        <item itemvalue="Gradle.IDO-APM:miadaspect [uploadArchives]" />
+        <item itemvalue="Gradle.IDO-APM:miadaspect [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -422,6 +562,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asm add mothed momitor" />
@@ -432,10 +573,12 @@
       <screen x="0" y="24" width="1920" height="962" />
     </state>
     <state x="731" y="301" key="#Gradle/-1080.24.1080.1802/0.24.1920.962/1920.0.1920.1080@0.24.1920.962" timestamp="1631172973954" />
-    <state x="477" y="251" key="#PSD" timestamp="1631156573707">
+    <state x="203" y="251" key="#PSD" timestamp="1639631831147">
       <screen x="0" y="24" width="1920" height="962" />
     </state>
     <state x="477" y="251" key="#PSD/-1080.24.1080.1802/0.24.1920.962/1920.0.1920.1080@0.24.1920.962" timestamp="1631156573707" />
+    <state x="-966" y="453" key="#PSD/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639478877145" />
+    <state x="203" y="251" key="#PSD/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1639631831147" />
     <state x="765" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1631267917581">
       <screen x="0" y="24" width="1920" height="962" />
     </state>
@@ -477,39 +620,44 @@
       <screen x="0" y="24" width="1920" height="962" />
     </state>
     <state x="92" y="116" width="1736" height="778" key="DiffContextDialog/-1080.24.1080.1802/0.24.1920.962/1920.0.1920.1080@0.24.1920.962" timestamp="1631154149404" />
-    <state x="310" y="212" key="FileChooserDialogImpl" timestamp="1631260249854">
-      <screen x="0" y="24" width="1920" height="962" />
+    <state x="-906" y="375" width="816" height="518" key="FileChooserDialogImpl" timestamp="1639480304262">
+      <screen x="-1080" y="0" width="1080" height="1920" />
     </state>
     <state x="734" y="246" key="FileChooserDialogImpl/-1080.24.1080.1802/0.24.1920.962/1920.0.1920.1080@0.24.1920.962" timestamp="1631161257207" />
+    <state x="-906" y="375" width="816" height="518" key="FileChooserDialogImpl/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639480304262" />
     <state x="310" y="212" key="FileChooserDialogImpl/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1631260249854" />
-    <state width="1877" height="392" key="GridCell.Tab.0.bottom" timestamp="1631274437733">
+    <state width="1860" height="131" key="GridCell.Tab.0.bottom" timestamp="1639634351835">
       <screen x="0" y="24" width="1920" height="962" />
     </state>
     <state width="1877" height="38" key="GridCell.Tab.0.bottom/-1080.0.1080.1826/0.0.1920.986/1920.0.1920.1080@0.0.1920.986" timestamp="1631166850452" />
     <state width="1877" height="481" key="GridCell.Tab.0.bottom/-1080.24.1080.1802/0.24.1920.962/1920.0.1920.1080@0.24.1920.962" timestamp="1631173786779" />
-    <state width="1877" height="481" key="GridCell.Tab.0.bottom/0.24.1920.962@0.24.1920.962" timestamp="1631176462460" />
-    <state width="1877" height="392" key="GridCell.Tab.0.bottom/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1631274437733" />
-    <state width="1877" height="392" key="GridCell.Tab.0.center" timestamp="1631274437733">
+    <state width="1860" height="213" key="GridCell.Tab.0.bottom/0.24.1920.962@0.24.1920.962" timestamp="1639565142335" />
+    <state width="1037" height="628" key="GridCell.Tab.0.bottom/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639558835265" />
+    <state width="1860" height="131" key="GridCell.Tab.0.bottom/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1639634351835" />
+    <state width="1860" height="131" key="GridCell.Tab.0.center" timestamp="1639634351835">
       <screen x="0" y="24" width="1920" height="962" />
     </state>
     <state width="1877" height="38" key="GridCell.Tab.0.center/-1080.0.1080.1826/0.0.1920.986/1920.0.1920.1080@0.0.1920.986" timestamp="1631166850451" />
     <state width="1877" height="481" key="GridCell.Tab.0.center/-1080.24.1080.1802/0.24.1920.962/1920.0.1920.1080@0.24.1920.962" timestamp="1631173786779" />
-    <state width="1877" height="481" key="GridCell.Tab.0.center/0.24.1920.962@0.24.1920.962" timestamp="1631176462460" />
-    <state width="1877" height="392" key="GridCell.Tab.0.center/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1631274437733" />
-    <state width="1877" height="392" key="GridCell.Tab.0.left" timestamp="1631274437733">
+    <state width="1860" height="213" key="GridCell.Tab.0.center/0.24.1920.962@0.24.1920.962" timestamp="1639565142335" />
+    <state width="1037" height="628" key="GridCell.Tab.0.center/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639558835265" />
+    <state width="1860" height="131" key="GridCell.Tab.0.center/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1639634351835" />
+    <state width="1860" height="131" key="GridCell.Tab.0.left" timestamp="1639634351835">
       <screen x="0" y="24" width="1920" height="962" />
     </state>
     <state width="1877" height="38" key="GridCell.Tab.0.left/-1080.0.1080.1826/0.0.1920.986/1920.0.1920.1080@0.0.1920.986" timestamp="1631166850451" />
     <state width="1877" height="481" key="GridCell.Tab.0.left/-1080.24.1080.1802/0.24.1920.962/1920.0.1920.1080@0.24.1920.962" timestamp="1631173786779" />
-    <state width="1877" height="481" key="GridCell.Tab.0.left/0.24.1920.962@0.24.1920.962" timestamp="1631176462459" />
-    <state width="1877" height="392" key="GridCell.Tab.0.left/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1631274437733" />
-    <state width="1877" height="392" key="GridCell.Tab.0.right" timestamp="1631274437733">
+    <state width="1860" height="213" key="GridCell.Tab.0.left/0.24.1920.962@0.24.1920.962" timestamp="1639565142335" />
+    <state width="1037" height="628" key="GridCell.Tab.0.left/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639558835265" />
+    <state width="1860" height="131" key="GridCell.Tab.0.left/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1639634351835" />
+    <state width="1860" height="131" key="GridCell.Tab.0.right" timestamp="1639634351835">
       <screen x="0" y="24" width="1920" height="962" />
     </state>
     <state width="1877" height="38" key="GridCell.Tab.0.right/-1080.0.1080.1826/0.0.1920.986/1920.0.1920.1080@0.0.1920.986" timestamp="1631166850452" />
     <state width="1877" height="481" key="GridCell.Tab.0.right/-1080.24.1080.1802/0.24.1920.962/1920.0.1920.1080@0.24.1920.962" timestamp="1631173786779" />
-    <state width="1877" height="481" key="GridCell.Tab.0.right/0.24.1920.962@0.24.1920.962" timestamp="1631176462460" />
-    <state width="1877" height="392" key="GridCell.Tab.0.right/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1631274437733" />
+    <state width="1860" height="213" key="GridCell.Tab.0.right/0.24.1920.962@0.24.1920.962" timestamp="1639565142335" />
+    <state width="1037" height="628" key="GridCell.Tab.0.right/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639558835265" />
+    <state width="1860" height="131" key="GridCell.Tab.0.right/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1639634351835" />
     <state x="184" y="102" key="MergeDialog" timestamp="1631274564050">
       <screen x="0" y="24" width="1920" height="962" />
     </state>
@@ -518,16 +666,22 @@
       <screen x="0" y="24" width="1920" height="962" />
     </state>
     <state x="595" y="265" key="MultipleFileMergeDialog/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1631274573348" />
-    <state x="461" y="149" key="SettingsEditor" timestamp="1631104484177">
-      <screen x="0" y="24" width="1920" height="962" />
+    <state x="-791" y="661" key="RollbackChangesDialog" timestamp="1639478043616">
+      <screen x="-1080" y="0" width="1080" height="1920" />
+    </state>
+    <state x="-791" y="661" key="RollbackChangesDialog/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639478043616" />
+    <state x="-1147" y="265" key="SettingsEditor" timestamp="1639534765125">
+      <screen x="-1080" y="0" width="1080" height="1920" />
     </state>
     <state x="461" y="149" key="SettingsEditor/-1080.24.1080.1802/0.24.1920.962/1920.0.1920.1080@0.24.1920.962" timestamp="1631104484177" />
     <state x="461" y="149" key="SettingsEditor/-1920.24.1920.962/0.24.1920.962@0.24.1920.962" timestamp="1631103632666" />
-    <state x="681" y="251" width="564" height="512" key="StructurePopup" timestamp="1631271142759">
-      <screen x="0" y="24" width="1920" height="962" />
+    <state x="-1147" y="265" key="SettingsEditor/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639534765125" />
+    <state x="-697" y="453" width="564" height="1022" key="StructurePopup" timestamp="1639533033130">
+      <screen x="-1080" y="0" width="1080" height="1920" />
     </state>
     <state x="681" y="233" width="564" height="524" key="StructurePopup/-1080.0.1080.1826/0.0.1920.986/1920.0.1920.1080@0.0.1920.986" timestamp="1631168337707" />
     <state x="681" y="251" width="564" height="512" key="StructurePopup/-1080.24.1080.1802/0.24.1920.962/1920.0.1920.1080@0.24.1920.962" timestamp="1631170498913" />
+    <state x="-697" y="453" width="564" height="1022" key="StructurePopup/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639533033130" />
     <state x="681" y="251" width="564" height="512" key="StructurePopup/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1631271142759" />
     <state x="552" y="238" key="Vcs.Push.Dialog.v2" timestamp="1631274598054">
       <screen x="0" y="24" width="1920" height="962" />
@@ -537,27 +691,42 @@
       <screen x="0" y="24" width="1920" height="962" />
     </state>
     <state x="763" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1631274634363" />
-    <state x="499" y="241" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1631173117331">
-      <screen x="0" y="24" width="1920" height="962" />
+    <state x="-799" y="433" width="536" height="1280" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1639554889862">
+      <screen x="-1080" y="0" width="1080" height="1920" />
     </state>
     <state x="499" y="222" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-1080.0.1080.1826/0.0.1920.986/1920.0.1920.1080@0.0.1920.986" timestamp="1631170285679" />
     <state x="499" y="241" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-1080.24.1080.1802/0.24.1920.962/1920.0.1920.1080@0.24.1920.962" timestamp="1631173117331" />
-    <state x="662" y="237" width="917" height="536" key="find.popup" timestamp="1631261596307">
-      <screen x="0" y="24" width="1920" height="962" />
+    <state x="-799" y="433" width="536" height="1280" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639554889862" />
+    <state width="786" height="285" key="documentation.popup.size" timestamp="1639473571260">
+      <screen x="-1080" y="0" width="1080" height="1920" />
+    </state>
+    <state width="786" height="285" key="documentation.popup.size/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639473571260" />
+    <state x="-708" y="425" width="566" height="1070" key="find.popup" timestamp="1639555125369">
+      <screen x="-1080" y="0" width="1080" height="1920" />
     </state>
     <state x="662" y="237" width="596" height="536" key="find.popup/-1080.24.1080.1802/0.24.1920.962/1920.0.1920.1080@0.24.1920.962" timestamp="1631173166401" />
+    <state x="-708" y="425" width="566" height="1070" key="find.popup/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639555125369" />
     <state x="662" y="237" width="917" height="536" key="find.popup/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1631261596307" />
+    <state width="784" height="283" key="javadoc.popup.new" timestamp="1639473954842">
+      <screen x="-1080" y="0" width="1080" height="1920" />
+    </state>
+    <state width="784" height="283" key="javadoc.popup.new/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639473954842" />
+    <state x="397" y="147" key="psd.add.module.dependency.panel.dimension" timestamp="1639631829285">
+      <screen x="0" y="24" width="1920" height="962" />
+    </state>
+    <state x="397" y="147" key="psd.add.module.dependency.panel.dimension/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1639631829285" />
     <state x="616" y="233" key="run.anything.popup" timestamp="1631175442650">
       <screen x="0" y="24" width="1920" height="962" />
     </state>
     <state x="616" y="233" key="run.anything.popup/0.24.1920.962@0.24.1920.962" timestamp="1631175442650" />
-    <state x="623" y="230" width="1197" height="662" key="search.everywhere.popup" timestamp="1631271952075">
+    <state x="623" y="230" width="1197" height="662" key="search.everywhere.popup" timestamp="1639621604331">
       <screen x="0" y="24" width="1920" height="962" />
     </state>
     <state x="623" y="211" width="1197" height="678" key="search.everywhere.popup/-1080.0.1080.1826/0.0.1920.986/1920.0.1920.1080@0.0.1920.986" timestamp="1631168313313" />
     <state x="623" y="230" width="1197" height="662" key="search.everywhere.popup/-1080.24.1080.1802/0.24.1920.962/1920.0.1920.1080@0.24.1920.962" timestamp="1631170541523" />
     <state x="623" y="230" width="1197" height="662" key="search.everywhere.popup/0.24.1920.962@0.24.1920.962" timestamp="1631177000693" />
-    <state x="623" y="230" width="1197" height="662" key="search.everywhere.popup/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1631271952075" />
+    <state x="-730" y="411" width="674" height="1322" key="search.everywhere.popup/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@-1080.0.1080.1920" timestamp="1639555212391" />
+    <state x="623" y="230" width="1197" height="662" key="search.everywhere.popup/1920.24.1920.962/-1080.0.1080.1920/0.24.1920.962@0.24.1920.962" timestamp="1639621604331" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -583,10 +752,14 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/asmplugin/src/main/groovy/com/asm/plugin/AsmMethodMonitor.groovy</url>
+          <url>file://$PROJECT_DIR$/asmplugin/src/main/groovy/com/miadapm/plugin/asm/AsmMethodMonitor.groovy</url>
           <line>25</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <breakpoint enabled="true" suspend="THREAD" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="16" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -594,5 +767,8 @@
         <watch expression="file.createNewFile()" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IDO_APM$ASMTest_asmplugin__uploadArchives_.ic" NAME="ASMTest:asmplugin [uploadArchives] Coverage Results" MODIFIED="1639549652708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
